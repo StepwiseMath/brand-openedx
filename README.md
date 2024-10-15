@@ -1,7 +1,13 @@
 # Open edX Brand Package Interface
 
-This project contains the default branding assets and style used in Open edX
-applications. It is published on npm as `@openedx/brand-openedx`.
+This project contains the default branding assets and style used in Stepwise Math Open edX
+applications. It is forked from [openedx/brand-openedx](https://github.com/openedx/brand-openedx)
+and installed from source by the tutor plugin [StepwiseMath/tutor-indigo-stepwisemath](https://github.com/StepwiseMath/tutor-indigo-stepwisemath),
+itself a fork of [overhangio/tutor-indigo](https://github.com/overhangio/tutor-indigo)
+
+This is currently only used as scaffolding for the mfe build process. Technically,
+we **could** revert back to openedx/brand-openedx, relying solely on tutor parameters
+for setting the logo urls, etcetera.
 
 The file structure serves as an interface to be implemented for custom
 branding and theming of Open edX.
